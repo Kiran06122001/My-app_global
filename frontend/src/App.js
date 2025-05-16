@@ -9,14 +9,14 @@ function App() {
         <div className="container">
           <nav className="nav">
             <a href="/" className="logo">
-              <div className="logo-icon">C</div>
-              <span className="logo-text">Claude</span>
+              <div className="logo-icon">A</div>
+              <span className="logo-text">AppName</span>
             </a>
             <div className="nav-links">
-              <a href="https://anthropic.com/claude/" className="nav-link">Features</a>
-              <a href="https://anthropic.com/pricing/" className="nav-link">Pricing</a>
-              <a href="https://docs.anthropic.com/" className="nav-link">Docs</a>
-              <a href="https://console.anthropic.com/" className="btn">Get Started</a>
+              <a href="/features" className="nav-link">Features</a>
+              <a href="/pricing" className="nav-link">Pricing</a>
+              <a href="/docs" className="nav-link">Docs</a>
+              <a href="/signup" className="btn">Get Started</a>
             </div>
           </nav>
         </div>
@@ -25,13 +25,13 @@ function App() {
       {/* Hero */}
       <section className="hero">
         <div className="container">
-          <h1 className="hero-title">Build Intelligent Apps with Claude</h1>
+          <h1 className="hero-title">Build Amazing Apps with AppName</h1>
           <p className="hero-description">
-            The next generation AI assistant that helps you create, explore, and build amazing things.
+            The next generation platform that helps you create, explore, and build amazing things.
           </p>
           <div className="hero-buttons">
-            <a href="https://console.anthropic.com/" className="btn">Get Started</a>
-            <a href="https://docs.anthropic.com/" className="btn btn-outline">View Documentation</a>
+            <a href="/signup" className="btn">Get Started</a>
+            <a href="/docs" className="btn btn-outline">View Documentation</a>
           </div>
         </div>
       </section>
@@ -42,18 +42,18 @@ function App() {
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">💬</div>
-              <h3 className="feature-title">Natural Conversations</h3>
-              <p className="feature-description">Engage in fluid, contextual dialogues that feel natural and human-like.</p>
+              <h3 className="feature-title">User-Friendly Interface</h3>
+              <p className="feature-description">Enjoy a clean, intuitive interface designed for maximum productivity and ease of use.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">💻</div>
-              <h3 className="feature-title">Developer Friendly</h3>
-              <p className="feature-description">Integrate Claude into your applications with our simple and powerful API.</p>
+              <h3 className="feature-title">Developer Tools</h3>
+              <p className="feature-description">Access powerful developer tools with our simple and comprehensive API.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">✨</div>
               <h3 className="feature-title">Endless Possibilities</h3>
-              <p className="feature-description">From content creation to data analysis, Claude can help with a wide range of tasks.</p>
+              <p className="feature-description">From content creation to data analysis, our platform supports a wide range of applications.</p>
             </div>
           </div>
         </div>
@@ -64,9 +64,9 @@ function App() {
         <div className="container">
           <div className="demo-container">
             <div className="demo-content">
-              <h2 className="demo-title">See Claude in Action</h2>
-              <p className="demo-description">Watch how Claude can transform your workflow and help you accomplish tasks more efficiently.</p>
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className="btn">Watch Demo</a>
+              <h2 className="demo-title">See It In Action</h2>
+              <p className="demo-description">Watch how our platform can transform your workflow and help you accomplish tasks more efficiently.</p>
+              <a href="/demo" className="btn">Watch Demo</a>
             </div>
             <div className="demo-video">
               <span>Demo Video</span>
@@ -81,15 +81,15 @@ function App() {
           <div className="footer-content">
             <div>
               <div className="footer-logo">
-                <div className="logo-icon">C</div>
-                <span className="logo-text">Claude</span>
+                <div className="logo-icon">A</div>
+                <span className="logo-text">AppName</span>
               </div>
-              <p className="copyright">© 2025 Anthropic, Inc. All rights reserved.</p>
+              <p className="copyright">© 2025 Your Company, Inc. All rights reserved.</p>
             </div>
             <div className="footer-links">
-              <a href="https://anthropic.com/terms/" className="footer-link">Terms</a>
-              <a href="https://anthropic.com/privacy/" className="footer-link">Privacy</a>
-              <a href="https://anthropic.com/contact/" className="footer-link">Contact</a>
+              <a href="/terms" className="footer-link">Terms</a>
+              <a href="/privacy" className="footer-link">Privacy</a>
+              <a href="/contact" className="footer-link">Contact</a>
             </div>
           </div>
         </div>
