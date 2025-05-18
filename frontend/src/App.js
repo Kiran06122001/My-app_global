@@ -10,7 +10,7 @@ function App() {
           <nav className="nav">
             <a href="/" className="logo">
               <div className="logo-icon">A</div>
-              <span className="logo-text">AppName</span>
+              <span className="logo-text">App</span>
             </a>
             <div className="nav-links">
               <a href="/features" className="nav-link">Features</a>
